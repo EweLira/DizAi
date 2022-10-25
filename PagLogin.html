@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estiloLogin.css">
+    <link rel="icon" type="image/x-icon" href="../Diz aí/img/iconSite.png">
+    <link rel="stylesheet" href="./script.js">
+    <title>Login</title>
+</head>
+<body>
+            <main>
+              
+              <img class="fotoo" src="img/LogoB (1).png" alt="logo">
+              
+            <div class="tela-login"> 
+              
+                  
+                  <form>
+                  <h1>Login</h1>
+                  <label >Email</label>
+                  <br><br>
+                  <input type="email" name="nome" placeholder="exemplo@mail.com" autofocus>
+                  <br><br>
+                  <label >Senha</label>
+                  <br><br>
+                  <input type="password" name="senha" placeholder="Senha">
+                  <br> <br>
+                  <a class="fcc-btn" href="./PagInicialSem.html" >Entrar</a>
+                  <p class = "text" style="color: #ffffff; font-size: medium;">Ainda não tem uma conta? <a style="color: #F54F46;" href="../Diz aí/PagCadastro.html"> Cadastre-se </a> </p>
+                    
+                  
+             
+
+  </div>
+</form>
+
+</main>
+<script>
+         
+  function mostra(frase) {
+
+   document.write(frase);
+
+   }
+
+     var loginCadastrado = "dizai@gmail.com";
+     var senhaCadastrada = "dizai123";
+     var loginInformado =loginCadastrado
+     var senhaInformada =senhaCadastrada
+
+       if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
+
+       alert("Que bom ver você por aqui! Diz aí, qual vai ser a de hoje? ");
+
+       } else {
+
+       alert("Login inválido. Tente novamente");
+
+      }
+
+
+
+</script>
+
+    
+</body>
+</html>

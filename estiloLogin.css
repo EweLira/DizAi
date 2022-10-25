@@ -1,0 +1,76 @@
+body{ 
+    
+    font-family: 'Comfortaa', cursive;
+    overflow: hidden;
+    background-image: linear-gradient(50deg, #020294, #F54F46);
+
+}
+.tela-login {
+    background-color: rgba(0, 4, 59, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 80px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #F54F46;
+}
+label{
+    margin-bottom: 20px;
+    color: #F54F46;
+}
+
+input {
+    outline: none;
+    font-size: 20;
+    padding: 10px;
+    border-radius: 15px;
+    width:100%;
+    margin-bottom: 10%;
+}
+.textoCaixa {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2;
+    font-family: 'Roboto', sans-serif;
+}
+.fcc-btn {
+
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color:  #ffffff;
+    background-color:#F54F46;
+    text-decoration: none;
+    
+  }
+  .fcc-btn:hover {
+    background-color: #020294;
+    color: #ffffff;
+  }
+  .text{
+      margin-top: 10%;
+  }
+.fotoo {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    
+    border-color: #F54F46;
+    transform: translate(-50%, -50%);
+
+
+}

@@ -1,0 +1,84 @@
+body {
+    width: auto;
+    height: auto;
+    background: #a4acb088;
+    padding: 5px 10px;
+}
+
+.titulo {
+    font-family: 'Comfortaa', cursive;
+    color: #F64F46;
+}
+
+.destaq {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 25px;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.imgPerfil {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form-horizontal {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.76);
+    display: inline-block;
+    padding: 20px 30px;
+    margin-right: 0;
+    box-sizing: border-box;
+    min-width: 40vw;
+    position: relative;
+    float: right;
+}
+
+.form {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.textoCaixa {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2;
+    font-family: 'Roboto', sans-serif;
+}
+input:focus{border-bottom:2px solid #78788c}
+
+        .fcc-btn {
+            margin-top: 25px;
+            text-align: center;
+            float: right;
+            padding: 8px 12px;
+            margin: 8px 0 0;
+            font-family: 'Comfortaa', cursive;
+            width: 17%;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            color:  #ffffff;
+            background-color:#F54F46;
+            text-decoration: none;
+            
+          }
+          .fcc-btn:hover {
+            background-color: #020294;
+            color: #ffffff;
+          }
